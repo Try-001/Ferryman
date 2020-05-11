@@ -14,6 +14,14 @@
 | k8s.gcr.io | registry.cn-shenzhen.aliyuncs.com/kubernetes_aliyun/{image}:{tag} |
 | quay.io    | registry.cn-shenzhen.aliyuncs.com/quayio_aliyun/{image}:{tag} |
 
+#### 例子
+
+原来：docker pull k8s.gcr.io/pause:2.0
+
+现在：docker pull registry.cn-shenzhen.aliyuncs.com/kubernetes_aliyun/pause:2.0
+
+
+
 ### 当前同步仓库列表
 
 | 镜像源     | 镜像                       |
